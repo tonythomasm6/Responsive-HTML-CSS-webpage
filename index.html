@@ -11,15 +11,23 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;&display=swap"
       rel="stylesheet"
     />
+   
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <ul class="list list--tick">
-      <li class="list__item">Item1</li>
-      <li class="list__item">Item1</li>
-      <li class="list__item">Item1</li>
-      <li class="list__item">Item1</li>
-    </ul>
+    <div class="collapsible collapsible--expanded">
+      <header class="collapsible__header">
+        <h2 class="collapsible__heading">Item 1</h2>
+          <svg class="icon icon--primary icon--white collapsible__chevron">
+            <use xlink:href="images/sprite.svg#chevron"></use>
+          </svg>
+        </span>
+      </header>
+      <div class="collapsible__content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, sed.
+      </div>
+    </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
