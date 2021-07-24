@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/tonythomasm6/Responsive-HTML-CSS-webpage/issues"
   },
-  "homepage": "https://github.com/tonythomasm6/Responsive-HTML-CSS-webpage#readme",
-  "devDependencies": {
-    "parcel-bundler": "^1.12.4"
-  }
+  "homepage": "https://github.com/tonythomasm6/Responsive-HTML-CSS-webpage#readme"
 }
